@@ -2,9 +2,9 @@
 ## Purpose
 To provide efficient and accurate information on the performance of Green Energy stocks from the years 2017 and 2018. Client is helping his parents determine which stocks are worth investing in to provide the lowest risk and the best possible return. We'll use the data to create two charts (one for each year) that the client can access using a button inserted into the excel spreadhseet. We'd like to be able to provide the following information: the ticker, the total daily volume and the return each stock provided.
 
-##Results
+## Results
 
-##Analysis
+## Analysis
 Before refractoring, we were able to use a previous code from our intial analysis for Steve and tweak it using nesting loops to produce a better and more efficient code. We set the initial ticker value at zero, created three different output arrays and then looped the original code to provide the final product for Steve. Below is the code used and screen shots of the run time for both years.
 
 Sub AllStocksAnalysis()
@@ -128,13 +128,13 @@ End Sub
 ![VBA_Challenge_2017 2](https://user-images.githubusercontent.com/82114481/116839640-209a4e80-aba1-11eb-9c32-caae73062273.png)
 ![VBA_CHALLENGE_2018](https://user-images.githubusercontent.com/82114481/116839645-242dd580-aba1-11eb-81ae-fe8c7fef12f1.png)
 
-##Summary
+## Summary
 
-###Advantages and Disadavntages of Refactoring Code in General
+### Advantages and Disadavntages of Refactoring Code in General
 
 Refactoring codes makes things simpler and easier for people to understand who may not be well versed in VBA coding. As mentioned above, it also makes the process more efficient. These are easier to read for everyone. It also provides a cleaner code which makes it easier to debug and better for collaboration should we choose to explore the data further. One issue that might pop up is the size of the coding files. In making results easier to present and understand, a lot of code is used. There also needs to be a test case already available for the existing code.
 
-###Advantages and Disadvantages of the Original and Refactored VBA Script
+### Advantages and Disadvantages of the Original and Refactored VBA Script
 
 The most obvious advantage is the speed at which the code can be ran. We were essentially able to take the run time down from around a second to less than a quarter of a second with the refactored code. The main disadvantage is the ammount of code needed and the size of the new refactored method. I had to quit Excel multiple times and reopend it after getting a '6' error. There was nothing wrong with the code, excel just needed a refresh.
 
